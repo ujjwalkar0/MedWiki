@@ -6,7 +6,7 @@ export default function Banner() {
 
 
     useEffect(() => {
-        fetch("http://openlibrary.org/subjects/love.json")
+        fetch("https://openlibrary.org/subjects/love.json")
             .then(response => response.json())
             .then(data => setMedicine(data))
     }, [])
